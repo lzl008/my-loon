@@ -1,0 +1,10 @@
+#!name=阿里+腾讯双路DoH
+#!desc=阿里(主)与腾讯(备)双路 DoH 解析。专治运营商劫持，国内访问极速，国外自动走代理。
+#!author=Gemini
+#!icon=https://raw.githubusercontent.com/Loolin/Loon/master/Icon/Server/Aliyun.png
+#!date=2025-12-16
+
+[General]
+# 逗号分隔，Loon 会优选或并发查询
+doh-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query
+doh-format = json
